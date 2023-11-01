@@ -1,0 +1,183 @@
+@font-face {
+    font-family: gg;
+    src: url(./merivaregular.ttf);
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+.nav{
+    width: 100vw;
+    height: 11vh;
+    background-color: #0a0b27;
+    display: flex;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 999;
+
+}
+.lefttext{
+    width: 14vw;
+    height: 100%;
+    
+    overflow: hidden;
+    justify-content: center;
+    
+    
+}
+.lefttext>img{
+    margin: 3.3vh 1vw;
+    scale: 0.8;
+    
+    
+
+}
+.righttext{
+    width: 86vw;
+    height: 100%;
+    display: flex;
+    gap: 4vw;
+    padding: 0 10vw;
+}
+.righttext>h4{
+    color: #fff;
+    scale: 1.1;
+    
+    
+}
+.righttext :hover{
+    opacity: 1;
+    color: red;
+
+}
+.firstimg{
+    width: 100vw;
+    overflow-x: hidden;
+    height: 116vh;
+    /* background-color: blue;
+     */
+}
+.firstimg>img{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100vw;
+    height: 235vh;
+    background-color: #0a0b27;
+    overflow-y: hidden;
+    display: flex;
+    margin-top: -.5vw;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(240, 145, 48);
+}
+.left>img{
+    width: 30%;
+    height: 30%;
+    margin-left: 229px;
+    margin-top: 416px;
+    
+}
+.left>h1{
+    font-size: 7.5vw;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: -32vw;
+    line-height: 12vh;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    
+}
+.right>h3{
+    overflow-y: hidden;
+    margin-top: 20vh;
+    margin-left: 9vw;
+    font-family: gg;
+    font-size: 1.8vw;
+}
+.logo{
+    display: flex;
+    padding-left: 9vw;
+    gap: 0.8vw;
+    
+}
+.lastimage{
+    width: 100vw;
+    height: 120vh;
+    background-color: aquamarine;
+    overflow-y: hidden;
+}
+.lastimage>img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    overflow: hidden;
+    gap: 2vw;
+}
+.first{
+    width: 30%;
+    height: 100%;
+    background-color:#fff;
+}
+.first>p{
+    margin-left: 5vw;
+    margin-top: 8vh;
+}
+.second{
+    width: 30%;
+    height: 100%;
+    
+    
+}
+.second>p{
+    margin-left: 4.5vw;
+    margin-top: 8vh;
+}
+.second>h4{
+    margin-left: 4.5vw;
+    font-size: 1.1vw;
+    padding-top: -2vh;
+    gap: 0.5vh;
+    
+    
+}
+.third{
+    width: 40%;
+    height: 100%;
+    
+}
+.third>p{
+    margin-top: 8vh;
+    margin-left: 4.5vw;
+    
+}
+.third span{
+    font-weight: 900;
+}
+
+.icons{
+    display: flex;
+    /* color: #fff; */
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    margin-left: -24vw;
+    gap: .1vw;
+}
+
+
+
+
